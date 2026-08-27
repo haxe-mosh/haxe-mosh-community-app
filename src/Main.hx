@@ -14,7 +14,7 @@ class Main {
 		title.textContent = "HAXE-MOSH";
 
 		var message = document.createParagraphElement();
-		message.textContent = "Let's make some amazing HAXE code together!";
+		message.textContent = "Let's make some amazing random HAXE code together!";
 
 		card.appendChild(title);
 		card.appendChild(message);
