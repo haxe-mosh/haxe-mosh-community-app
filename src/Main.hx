@@ -25,7 +25,7 @@ class Main extends hxd.App {
 
     override function update(dt:Float) {
         if (followingClick) {
-            logo.rotation += SPIN_SPEED * dt;
+            logo.rotation -= SPIN_SPEED * dt;
         }
 
         var dx = targetX - logo.x;
